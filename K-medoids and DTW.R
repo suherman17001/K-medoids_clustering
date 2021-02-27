@@ -7,7 +7,7 @@ library(factoextra)
 library(dendextend)
 library(kmed)
 ## Input Data ##
-dataku=read.csv("hasil1.csv",header=T,sep=";") #input
+dataku=read.csv("hasil1.csv",header=T,sep=";") #input dari data "24 Desember 2020.csv"
 attach(dataku)
 summary(dataku)
 ## Dynamic Time Warping Distance ##
